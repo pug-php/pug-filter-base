@@ -1,5 +1,5 @@
 {
-    "name": "kylekatarnls/jade-filter-sbp",
+    "name": "kylekatarnls/jade-filter-base",
     "description": "Example for Jade-php filter, use this base to create and publish your own",
     "type": "library",
     "license": "MIT",
