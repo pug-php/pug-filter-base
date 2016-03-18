@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef18911f2700e1a544a640ec65b2682b",
-    "content-hash": "bb4b04a1786b57af24748e570967ca48",
+    "hash": "f39d7d46dc731961582bf558af54fe18",
+    "content-hash": "01b42c2f4cbfae388a09ef2e74831a5b",
     "packages": [
         {
             "name": "kylekatarnls/jade-php",
-            "version": "dev-master",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kylekatarnls/jade-php.git",
-                "reference": "bbd674d5755eb105a8000dea399da81ef2588d6b"
+                "reference": "f2e28eb7008c32e95995c3e293b5d35c4cd0e727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kylekatarnls/jade-php/zipball/bbd674d5755eb105a8000dea399da81ef2588d6b",
-                "reference": "bbd674d5755eb105a8000dea399da81ef2588d6b",
+                "url": "https://api.github.com/repos/kylekatarnls/jade-php/zipball/f2e28eb7008c32e95995c3e293b5d35c4cd0e727",
+                "reference": "f2e28eb7008c32e95995c3e293b5d35c4cd0e727",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +76,7 @@
                 "minification",
                 "template"
             ],
-            "time": "2016-03-16 20:13:02"
+            "time": "2016-03-14 12:49:45"
         }
     ],
     "packages-dev": [
@@ -1176,9 +1176,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kylekatarnls/jade-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
