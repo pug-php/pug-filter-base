@@ -8,7 +8,27 @@ Install composer: https://getcomposer.org/download/
 Then create a project based on this package:
 
 ```shell
-composer create-project kylekatarnls/jade-filter-base
+composer create-project kylekatarnls/jade-filter-base yourfilter
+cd yourfilter
+```
+Replace **yourfilter** with the directory name you wish, composer will create
+it and install jade-filter-base inside.
+
+If your filter require somes other packages to work, add them with composer,
+for example:
+
+```shell
+composer require kylekatarnls/sbp
+```
+
+NB: By default, the composer.json file is set to "minimum-stability": "stable",
+but some packages have no stable version. To install them, set it to dev:
+
+```json
+"minimum-stability": "dev",
+```
+```shell
+composer require neemzy/stylus
 ```
 
 Then rename **src/Jade/Filter/Base.php** to **src/JadeFilter/YourFilter.php**
