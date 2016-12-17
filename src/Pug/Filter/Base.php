@@ -3,8 +3,8 @@
 namespace Pug\Filter;
 
 use Jade\Compiler;
-use Jade\Nodes\Filter;
 use Jade\Filter\AbstractFilter;
+use Jade\Nodes\Filter;
 
 class Base extends AbstractFilter
 {
