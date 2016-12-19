@@ -1,6 +1,12 @@
 # pug-filter-base
 Example for Pug-php filter, use this base to create and publish your own
 
+[![Latest Stable Version](https://poser.pugx.org/pug-php/pug-filter-base/v/stable.png)](https://packagist.org/packages/pug-php/pug-filter-base)
+[![Build Status](https://travis-ci.org/pug-php/pug-filter-base.svg?branch=master)](https://travis-ci.org/pug-php/pug-filter-base)
+[![Code Climate](https://codeclimate.com/github/pug-php/pug-filter-base/badges/gpa.svg)](https://codeclimate.com/github/pug-php/pug-filter-base)
+[![Test Coverage](https://codeclimate.com/github/pug-php/pug-filter-base/badges/coverage.svg)](https://codeclimate.com/github/pug-php/pug-filter-base/coverage)
+[![StyleCI](https://styleci.io/repos/61787950/shield?branch=master)](https://styleci.io/repos/61787950)
+
 ## How to create and publish your own filter
 
 Install composer: https://getcomposer.org/download/
