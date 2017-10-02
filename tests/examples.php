@@ -40,7 +40,7 @@ class ExamplesTest extends \PHPUnit_Framework_TestCase
         $actual = preg_replace('/<br[^>]*>/', "\n", $renderedHtml);
         $expected = preg_replace('/<br[^>]*>/', "\n", $htmlFileContents);
         $actual = trim(preg_replace('`\s+`', ' ', strip_tags($actual)));
-        $expected = trim(preg_replace('`\s+`', ' ', strip_tags($htmlFileContents)));
+        $expected = trim(preg_replace('`\s+`', ' ', strip_tags($expected)));
 
         $this->assertSame($expected, $actual, $pugFile . ' should match ' . $htmlFile . ' as text');
     }
