@@ -2,9 +2,9 @@
 
 namespace Pug\Filter;
 
-use Pug\AbstractFilter as BasFilter;
+use Pug\AbstractFilter as BaseFilter;
 
-class Base extends BasFilter
+class Base extends BaseFilter
 {
     public function __invoke($code, array $options = null)
     {
