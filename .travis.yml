@@ -3,7 +3,7 @@ matrix:
   include:
     - php: 5.3
       env: PUG_VERSION='2.7.1'
-      dist: trusty
+      dist: precise
       sudo: required
     - php: 5.4
       env: PUG_VERSION='2.7.1'
