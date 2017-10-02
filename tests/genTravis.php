@@ -47,7 +47,10 @@ foreach ($matrix as $phpVersion => $pugVersions) {
             'php' => $phpVersion,
             'env' => "PUG_VERSION='$pugVersion'",
         ];
-        if (in_array($phpVersion, ['hhvm', '5.3'])) {
+        if ($phpVersion === '5.3') {
+            $environment['dist'] = 'trusty';
+            $environment['sudo'] = 'precise';
+        } elseif ($phpVersion === 'hhvm') {
             $environment['dist'] = 'trusty';
             $environment['sudo'] = 'required';
         }
