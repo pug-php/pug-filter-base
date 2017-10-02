@@ -13,7 +13,6 @@ $travisData = [
             'fi;',
         ]),
         'travis_retry composer update --no-interaction',
-        'chmod -R 0777 tests/project',
     ],
     'script'        => [
         'vendor/bin/phpunit --verbose --coverage-text --coverage-clover=coverage.xml',
@@ -48,7 +47,7 @@ foreach ($matrix as $phpVersion => $pugVersions) {
             'php' => $phpVersion,
             'env' => "PUG_VERSION='$pugVersion'",
         ];
-        if ($phpVersion === 'hhvm') {
+        if (in_array($phpVersion, ['hhvm', '5.3'])) {
             $environment['dist'] = 'trusty';
             $environment['sudo'] = 'required';
         }
